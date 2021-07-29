@@ -72,12 +72,12 @@ RAWAT GROUP ELU, BIAR ELU NYA KAGAK CAPEK!
 
 buttons = [
     [
-        InlineKeyboardButton(text="👮OWNER👮", url="https://t.me/kenkanasw"),
-        InlineKeyboardButton(text="💬GROUP💬", url="https://t.me/musikkugroup"),
+        InlineKeyboardButton(text="👮OWNER👮", url="https://t.me/iyainyabre"),
+        InlineKeyboardButton(text="💬GROUP💬", url="https://t.me/tongkrongankairo"),
     ],
     [
         InlineKeyboardButton(text="❓ BANTUAN ❓", callback_data="help_back"),
-        InlineKeyboardButton(text="📣CHANNEL📣", url="https://t.me/musikkuchannel"),
+        InlineKeyboardButton(text="📣CHANNEL📣", url="https://t.me/kairosworld"),
     ],
     [
         InlineKeyboardButton(
