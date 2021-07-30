@@ -88,7 +88,7 @@ buttons = [
 
 
 HELP_STRINGS = f"""
-*Komen Utama :* [🤖](https://telegra.ph/file/f973d5a6d4d91f6ca5aa3.jpg)
+*Komen Utama :* [🤖](https://telegra.ph/file/ff3f66eb95f8096083d06.jpg)
 HEY NGAB! GUA GUA PUNYA BANYAK MODULE NIH, COBA LIAT KEBAWAH ADA PANDUANNYA KAN? NAH COBAIN AJA YA.
 ✪ /start: Memulai menggunakan saya.
 ✪ /help: Klik ini akan memunculkan modul saya!
@@ -103,7 +103,7 @@ HEY NGAB! GUA GUA PUNYA BANYAK MODULE NIH, COBA LIAT KEBAWAH ADA PANDUANNYA KAN?
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
 You can donate to the original writer's of the Base code,
-Support them  [KENKAN](t.me/kenkanasw),[SEGAPUNG](t.me/Akusukakamubanget),"""
+Support them  [KENKAN](t.me/kenkanasw),"""
 
 IMPORTED = {}
 MIGRATEABLE = []
