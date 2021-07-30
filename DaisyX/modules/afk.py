@@ -58,6 +58,8 @@ def no_longer_afk(update: Update, context: CallbackContext):
         try:
             options = [
                 "{} abis parming ya lu!",
+                "{} abis parming dari mana lu?",
+                "{} sini bagi hasil parmingan lu",
             ]
             chosen_option = random.choice(options)
             update.effective_message.reply_text(chosen_option.format(firstname))
@@ -133,7 +135,7 @@ def check_afk(update, context, user_id, fst_name, userc_id):
         else:
             if int(userc_id) == int(user_id):
                 return
-            res = "{} Sedang parming.\nTapi Alasan nya: <code>{}</code>".format(
+            res = "{} Sedang parming.\nNitip pesan: <code>{}</code>".format(
                 html.escape(fst_name), html.escape(user.reason)
             )
             update.effective_message.reply_text(res, parse_mode="html")
