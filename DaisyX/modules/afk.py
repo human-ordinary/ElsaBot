@@ -58,8 +58,8 @@ def no_longer_afk(update: Update, context: CallbackContext):
         try:
             options = [
                 "{} abis parming ya lu!",
-                "{} abis parming dari mana lu?",
                 "{} sini bagi hasil parmingan lu",
+                "{} si cakep kembali",
             ]
             chosen_option = random.choice(options)
             update.effective_message.reply_text(chosen_option.format(firstname))
