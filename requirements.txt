@@ -36,6 +36,7 @@ gtts
 tswift
 pytz
 youtube_dl
+asyncio
 PyYAML>=5.3.1
 redis
 html2text
