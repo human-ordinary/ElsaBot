@@ -73,11 +73,11 @@ RAWAT GROUP ELU, BIAR ELU NYA KAGAK CAPEK!
 buttons = [
     [
         InlineKeyboardButton(text="👮OWNER👮", url="https://t.me/iyainyabre"),
-        InlineKeyboardButton(text="💬GROUP💬", url="https://t.me/tongkrongankairo"),
+        InlineKeyboardButton(text="💬GROUP💬", url="https://t.me/Randomchatanonymouss"),
     ],
     [
         InlineKeyboardButton(text="❓ BANTUAN ❓", callback_data="help_back"),
-        InlineKeyboardButton(text="📣CHANNEL📣", url="https://t.me/kairosworld"),
+        InlineKeyboardButton(text="📣CHANNEL📣", url="https://t.me/chlenterasajak"),
     ],
     [
         InlineKeyboardButton(
@@ -88,7 +88,7 @@ buttons = [
 
 
 HELP_STRINGS = f"""
-*Komen Utama :* [🤖](https://telegra.ph/file/ff3f66eb95f8096083d06.jpg)
+*Komen Utama :* [🤖](https://telegra.ph/file/9991642f5e7591c8727c6.jpg)
 HEY NGAB! GUA GUA PUNYA BANYAK MODULE NIH, COBA LIAT KEBAWAH ADA PANDUANNYA KAN? NAH COBAIN AJA YA.
 ✪ /start: Memulai menggunakan saya.
 ✪ /help: Klik ini akan memunculkan modul saya!
@@ -362,8 +362,8 @@ def DaisyX_about_callback(update, context):
     query = update.callback_query
     if query.data == "aboutmanu_":
         query.message.edit_text(
-            text=f"*😍 Hi kembali!  Nam saya {dispatcher.bot.first_name} 😍 \n\nSaya adalah bot yang di kelola @kenkanasw.* "
-            f"\n\n 🔥 Join [MUSIK KU GROUP](https://t.me/musikkugroup) Untuk tahu kabar terbaru dari {dispatcher.bot.first_name} 🔥"
+            text=f"*😍 Hi kembali!  Nam saya {dispatcher.bot.first_name} 😍 \n\nSaya adalah bot yang di kelola @iyaiyabre .* "
+            f"\n\n 🔥 Join [RANDOM CHAT](https://t.me/Randomchatanonymouss) Untuk tahu kabar terbaru dari {dispatcher.bot.first_name} 🔥"
             f"\n\n Saya memiliki sistem yang dapat mengatasi member yang suka spam, kamu tinggal aktifkan anti spam di pengaturan saya."
             f"\n\n👇 Kamu bisa klik di bawah untuk cara penggunaan 👇",
             parse_mode=ParseMode.MARKDOWN,
