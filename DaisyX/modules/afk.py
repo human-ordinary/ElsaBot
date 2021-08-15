@@ -37,7 +37,7 @@ def afk(update: Update, context: CallbackContext):
     sql.set_afk(update.effective_user.id, reason)
     fname = update.effective_user.first_name
     try:
-        update.effective_message.reply_text("{} Mau kemana lu!{}".format(fname, notice))
+        update.effective_message.reply_text("{} TELAH OFFLINE!!{}".format(fname, notice))
     except BadRequest:
         pass
 
@@ -57,9 +57,15 @@ def no_longer_afk(update: Update, context: CallbackContext):
         firstname = update.effective_user.first_name
         try:
             options = [
-                "{} abis parming ya lu!",
-                "{} sini bagi hasil parmingan lu",
-                "{} si cakep kembali",
+                "{} Telah Kembali!",
+                "Ada Yang kangen {}?",
+                "{} sekarang waktunya nimbrung!",
+                "{} disini menantimu:)!",
+                "{} Telah ONLINE!",
+                "{} welcome back {} !",
+                "{} tetap semangat ",
+                "Darimana lu {}?\nAbis apa hayo ?",
+                "Ramein grupnya yuk!",
             ]
             chosen_option = random.choice(options)
             update.effective_message.reply_text(chosen_option.format(firstname))
@@ -130,12 +136,12 @@ def check_afk(update, context, user_id, fst_name, userc_id):
         if not user.reason:
             if int(userc_id) == int(user_id):
                 return
-            res = "{} Sedang parming".format(fst_name)
+            res = "{} Sedang OFFLINE".format(fst_name)
             update.effective_message.reply_text(res)
         else:
             if int(userc_id) == int(user_id):
                 return
-            res = "{} Sedang parming.\nNitip pesan: <code>{}</code>".format(
+            res = "{} Sedang OFFLINE.\nAlasan: <code>{}</code>".format(
                 html.escape(fst_name), html.escape(user.reason)
             )
             update.effective_message.reply_text(res, parse_mode="html")
